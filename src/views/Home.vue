@@ -1,20 +1,17 @@
 <template>
   <v-container class="home">
     <v-row>
-      <v-col cols="9">
+      <v-col cols="12" md="9">
         <ModuleList></ModuleList>
       </v-col>
-      <v-col cols="3">
+      <v-col cols="12" md="3">
         <GradePanel></GradePanel>
       </v-col>
     </v-row>
-    <AddModuleFab></AddModuleFab>
   </v-container>
 </template>
 
 <script>
-
-import AddModuleFab from "@/components/AddModuleFab";
 import ModuleList from "@/components/ModuleList";
 import GradePanel from "@/components/GradePanel";
 export default {
@@ -22,7 +19,6 @@ export default {
   components: {
     GradePanel,
     ModuleList,
-    AddModuleFab
   }
 }
 </script>
