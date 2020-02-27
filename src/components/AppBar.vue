@@ -3,7 +3,7 @@
         <div class="d-flex align-center">
             <v-img
                     alt="Napier Logo"
-                    src="/logo/napier_logo_white_text.png"
+                    src="@/assets/logo/napier_logo_white_text.png"
                     class="shrink mr-3"
                     contain
                     transition="scale-transition"
